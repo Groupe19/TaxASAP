@@ -1,32 +1,96 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<Title> TaxASAP </Title>
+  <meta charset="utf-8">
+  <title>TaxASAP</title>
+  <style>
+    #top-tool-border {
+      width: 100%;
+      position: absolute;
+      top : 0;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(98, 116, 176);
+      height: 100px;
+      z-index: 1;
+    }
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: wheat;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    #logo {
+      position: absolute;
+      top : -30px;
+        left: 0px;
+      z-index: 2;
+    }
+
+    #slogan {
+      position: absolute;
+      top:35%;
+        left: 0px;
+        transform: translateY(-40%);
+      font-size: 50px;
+      width: 40%;
+      z-index: 2;
+      
+    }
+
+    .image-container {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 600px;
+      overflow: hidden;
+      transform: translateY(-50%);
+      border-radius: 20px;
+        z-index: 1;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .image-container2 {
+      position: absolute;
+      top: 60%;
+      right: 30%;
+      width: 350px;
+      overflow: hidden;
+      transform: translateY(-54%);
+      border-radius: 20px;
+        z-index: 4;
+    }
+
+    .image-container2 img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
 </head>
 
 <body>
-    <style>
-        #logo {
-            float: left;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-        }
-    </style>
-<h1 id ="logo">
-<img src="mockups/TaxASAP finale logo.png" alt="TaxASAP Logo" width="250" height="125">
+  <div id="logo">
+    <img src="mockups/TaxASAP_finale_logo-removebg-preview.png" alt="TaxASAP Logo" width="250" height="max-content">
+  </div>
+
+  <div id="slogan">
+    <h1>We Handle the <em>stress</em>, <br>you keep the rest!</h1>
+  </div>
+
+  <div class="image-container">
+    <img src="mockups/startup-594090_1920.jpg" alt="background image of people working together on taxes">
+  </div>
+<h1 class="top-tool-border">
 </h1>
-<style>
-    #slogan {
-        display: block;
-        width: 600px;
-        height: 600px;
-        position: absolute;
-        top: 400px;
-        font-size: 50px;
-        font-family: 'Times New Roman', Times, serif;
-        margin: 30px;
-    }
-</style>
-<h1 id="slogan">We Handle the <em>stress</em>, <br>you keep the rest! </h1>
+<div class="image-container2">
+    <img src="mockups/image-of-tax.jpg" alt="background image of people working together on taxes">
+</div>
+</body>
+</html>
