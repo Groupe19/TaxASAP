@@ -3,3 +3,7 @@
 <head>
     <img src="mockups/home_page.jpg" alt="TaxASAP logo"/>
 </head>
+<h1>
+<!-- The slogan, big and eyecatching-->
+ We handle the stress, you keep the rest!
+</h1>
