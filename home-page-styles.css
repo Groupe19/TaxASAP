@@ -26,11 +26,12 @@ body {
     max-width: 600px;
     padding: 20px;
     z-index: 2;
-    color: #d08025;
+    color: #dda769;
 }
 
 #slogan em {
     font-style: italic;
+    color:#d08025;
 }
 
 .get-started-button {
