@@ -9,7 +9,7 @@ function insertNavbar() {
             <div class="nav-right">
                 <a href="Home_page.html">Home</a>
                 <a href="plans.html">Plans</a>
-                <a href="features.html">About</a>
+                <a href="features.html">Features</a>
                 <a href="TeamMember.html">Team</a>
                 <a href="customer.html" class="btns">Get Started</a>
             </div>
@@ -29,7 +29,7 @@ function insertStaticFooter() {
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Our Services</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Pricing</a></li>
+                        <a href="plans.html">Pricing</a>
                         <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">FAQ</a></li>
                     </ul>
                 </div>

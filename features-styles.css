@@ -21,7 +21,7 @@ body {
     background-image: url(about_pics/background.avif);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #0B1C3D;
+    background-color: #cccccc;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -72,21 +72,44 @@ body {
     color: #d08025;
 }
 
-.img_comps {
-    align-items: center;
-    justify-content: center;
-    display: inline-flex;
-    gap: 30px;
-    animation: slide 20s linear infinite;
+.img_comps_wrapper {
     overflow: hidden;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.img_comps {
+    display: flex;
+    gap: 100px;
+    flex-shrink: 0;
+    min-width: 100%;
+    align-items: center;
+}
+
+.img_comps:first-child {
+    animation: scroll 40s linear infinite;
+}
+
+.img_comps:last-child {
+    animation: scroll 40s linear infinite;
 }
 
 .img_comps img {
-    height: 50px;
-    width: 100%;
-    max-width: 150px;
+    height: 120px;
+    width: 150px;
     object-fit: contain;
     filter: brightness(0) invert(1);
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .why {
