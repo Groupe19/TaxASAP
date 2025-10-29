@@ -9,7 +9,7 @@ function insertNavbar() {
             <div class="nav-right">
                 <a href="Home_page.html">Home</a>
                 <a href="plans.html">Plans</a>
-                <a href="features.html">About</a>
+                <a href="features.html">Features</a>
                 <a href="TeamMember.html">Team</a>
                 <a href="customer.html" class="btns">Get Started</a>
             </div>
