@@ -74,7 +74,7 @@ body {
   position: relative;
   border-radius: 20px;
   width: 270px;
-  height: 320px;
+  height: 340px;
   padding: 35px 25px;
   display: flex;
   flex-direction: column;
@@ -149,6 +149,10 @@ body {
 .getstart-btn:hover {
     transform: scale(1.07);
     box-shadow: 0 6px 15px rgba(208, 128, 37, 0.5);
+}
+
+.pricing-card .getstart-btn{
+    margin-top: 15px; 
 }
 
 .orange-rings {
