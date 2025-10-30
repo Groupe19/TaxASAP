@@ -1,1 +1,45 @@
+***Colour Scheme: 
+- #11224D – Deep navy blue used for the background to create a strong, professional foundation.
+- #193A6F – Slightly lighter navy for navigation bars or section headers, helping separate areas visually.
+- #2C599D – Medium blue used for links, icons, and emphasized headings to maintain contrast.
+- #5B84C4 – Soft blue highlight color, often used for hover states or accent backgrounds.
+- #F98125 – Vibrant orange accent for important buttons, icons, and call-to-action areas.
+- #FB9B50 – A lighter orange shade used for hover effects and subtle highlights.
 
+The dark navy tones form the primary background, creating contrast for white text and orange accents.
+Bright oranges are used to draw attention to key actions or keywords. For example: “Get Started” buttons, section titles, or highlighted words like “Premium” or “Upgrade.”
+This mix of cool blues and warm oranges gives a professional yet energetic look.
+
+
+***Typography:
+- Font Family: Times New Roman
+- Headings: Bold and large for clear hierarchy (e.g., 3rem for <h1>).
+- Subheadings: Slightly smaller (e.g., 2rem for <h2>), still bold but without accents.
+- Body Text: Regular weight, white color for readability.
+- Emphasis: Use italics or orange-colored text (#F98125) to highlight keywords or phrases, such as “secure,” “fast,” or “custom plans.”
+
+***Design Details:
+Sections are clearly divided using consistent padding and spacing:
+- Each section has generous top and bottom padding (e.g., padding: 60px 40px;) to prevent the design from feeling cramped.
+- Background tones alternate between shades of navy to create visual separation.
+- Content stays centered with a maximum width (e.g., max-width: 1100px;) for easy reading.
+
+Navigation Bar
+- Fixed at the top so users can access it easily while scrolling.
+- Slight shadow gives a sense of depth and separates it from the page background.
+- Active links are highlighted in orange for instant visibility.
+- The bar remains transparent or semi-dark to keep focus on content below.
+
+Buttons: 
+Buttons are rounded and approachable, following the orange accent theme:
+- Primary buttons use #F98125 as background and dark blue (#11224D) text.
+- On hover, the background lightens to #FB9B50 and slightly enlarges giving an interactive feel.
+- Rounded corners and soft shadows make them appear modern and clickable.
+
+***Overall Feel: 
+The design uses a dark blue background to create a sense of stability and focus,
+while the orange accents add warmth and help important elements stand out. 
+The Times New Roman font gives the website a traditional and trustworthy look, 
+which is balanced by modern layouts and smooth hover effects that make the design feel interactive. 
+Each section is clearly divided with consistent spacing, making the page easy to read and navigate. 
+All interactive elements, such as buttons and links, share the same hover and focus effects, giving the overall design a clean, professional, and cohesive appearance.
