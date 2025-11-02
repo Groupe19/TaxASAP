@@ -2,15 +2,15 @@ function insertNavbar() {
     const navHTML = `
         <nav class="navbar">
             <div class="nav-left">
-                <a href="Home_page.html">
+                <a href="index.html">
                     <img src="plans_img/logo.png" alt="TaxASAP Logo" class="logo">
                 </a>
             </div>
             <div class="nav-right">
-                <a href="Home_page.html">Home</a>
-                <a href="plans.html">Plans</a>
+                <a href="index.html">Home</a>
+                <a href="pricing.html">Plans</a>
                 <a href="features.html">Features</a>
-                <a href="TeamMember.html">Team</a>
+                <a href="team.html">Team</a>
                 <a href="customer.html" class="btns">Get Started</a>
             </div>
         </nav>
