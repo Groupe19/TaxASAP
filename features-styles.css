@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
 }
 
-.background_img {
+.hero-background {
     height: 680px;
     background-image: url(features_img/background.avif);
     background-position: center;
@@ -24,12 +24,12 @@ body {
     background-color: #cccccc;
     background-size: cover;
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-
-
 
 .description {
     background-color: rgba(255, 255, 255, 0.9); 
@@ -50,6 +50,25 @@ p {
     color: #d08025;
     margin-bottom: 20px;
     letter-spacing: 1px;
+}
+
+.cta{
+    background-color: #d08025;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 1.2rem;
+    border-radius: 1.2rem;
+    font-weight: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(208, 128, 37, 0.5);
+}
+
+.cta:hover {
+  background-color: #d08025;
+    color: #0B1C3D;
+    transform: scale(1.12);
+    box-shadow: 0 0 20px rgba(208, 128, 37, 0.7);
 }
 
 .companies {
@@ -87,6 +106,10 @@ h2 {
 
 .img_comps:last-child {
     animation: scroll 40s linear infinite;
+}
+
+.img_comps_wrapper.paused .img_comps {
+  animation-play-state: paused;
 }
 
 .img_comps img {
@@ -156,6 +179,14 @@ h2 {
   display: flex;
   align-items: center;
   gap: 30px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.feature-row.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .feature-row.reverse {
@@ -179,7 +210,6 @@ h2 {
   line-height: 1.5;
 }
 
-/* Responsive for mobile */
 @media (max-width: 768px) {
   .feature-row, .feature-row.reverse {
     flex-direction: column;
