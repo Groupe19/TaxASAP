@@ -11,7 +11,7 @@ function insertNavbar() {
                 <a href="pricing.html">Plans</a>
                 <a href="features.html">Features</a>
                 <a href="team.html">Team</a>
-                <a href="customer.html" class="btns">Get Started</a>
+                <a href="pricing.html" class="btns">Get Started</a>
             </div>
         </nav>
     `;
