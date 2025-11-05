@@ -53,7 +53,7 @@ p {
 }
 
 .cta{
-    background-color: #d08025;
+    background-color: #f7a84f;
     font-size: 1.5rem;
     text-decoration: none;
     color: #fff;
@@ -65,7 +65,7 @@ p {
 }
 
 .cta:hover {
-  background-color: #d08025;
+  background-color: #fff;
     color: #0B1C3D;
     transform: scale(1.12);
     box-shadow: 0 0 20px rgba(208, 128, 37, 0.7);
