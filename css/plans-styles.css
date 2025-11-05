@@ -27,7 +27,7 @@ body {
 
     background:
     linear-gradient(180deg, rgba(11, 28, 61, 0.268), rgba(18, 36, 77, 0.115)),
-    url("plans_img/bg-plans.png") center/cover no-repeat;
+    url("../imgs/plans_img/bg-plans.png") center/cover no-repeat;
 }
 
 .pricing-section h1 {

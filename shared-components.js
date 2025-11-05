@@ -3,7 +3,7 @@ function insertNavbar() {
         <nav class="navbar">
             <div class="nav-left">
                 <a href="index.html">
-                    <img src="plans_img/logo.png" alt="TaxASAP Logo" class="logo">
+                    <img src="imgs/plans_img/logo.png" alt="TaxASAP Logo" class="logo">
                 </a>
             </div>
             <div class="nav-right">

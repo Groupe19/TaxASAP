@@ -18,7 +18,7 @@ body {
 
 .hero-background {
     height: 680px;
-    background-image: url(features_img/background.avif);
+    background-image: url(../imgs/features_img/background.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #cccccc;
