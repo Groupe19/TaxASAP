@@ -1,67 +1,118 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 body \{\
-  font-family: Arial, sans-serif;\
-  margin: 0;\
-  background: #f5f7fa;\
-  color: #333;\
-\}\
-\
-header \{\
-  background: #007acc;\
-  color: white;\
-  text-align: center;\
-  padding: 20px 0;\
-\}\
-\
-section \{\
-  max-width: 800px;\
-  margin: 20px auto;\
-  background: white;\
-  padding: 20px;\
-  border-radius: 10px;\
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);\
-\}\
-\
-h2 \{\
-  color: #007acc;\
-\}\
-\
-form \{\
-  display: flex;\
-  gap: 10px;\
-  margin-bottom: 15px;\
-\}\
-\
-input \{\
-  flex: 1;\
-  padding: 10px;\
-  border: 1px solid #ccc;\
-  border-radius: 5px;\
-\}\
-\
-button \{\
-  padding: 10px 15px;\
-  border: none;\
-  background: #007acc;\
-  color: white;\
-  border-radius: 5px;\
-  cursor: pointer;\
-\}\
-\
-button:hover \{\
-  background: #005fa3;\
-\}\
-\
-.question, .faq \{\
-  background: #f0f8ff;\
-  padding: 10px;\
-  border-radius: 5px;\
-  margin-bottom: 10px;\
-\}\
+.faq-section, 
+.question-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  background-color: #fff;
+  border-radius: 1.2rem;
+  padding: 2.5rem;
+  box-shadow: 0 0 15px rgba(11, 28, 61, 0.25);
+}
+
+.faq-section h2,
+.question-section h2 {
+  color: #d08025;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.faq {
+  background-color: #f9f3eb;
+  border-left: 5px solid #d08025;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.faq:hover {
+  background-color: #fff5e8;
+  transform: translateY(-2px);
+}
+
+.faq p:first-child {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #0B1C3D;
+  cursor: pointer;
+}
+
+.faq p + p {
+  margin-top: 0.8rem;
+  color: #333;
+  display: none;
+  line-height: 1.6;
+}
+
+.contact-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  background-color: #fff;
+  border-radius: 1.2rem;
+  padding: 2.5rem;
+  box-shadow: 0 0 15px rgba(11, 28, 61, 0.25);
+}
+
+.contact-section h2 {
+  color: #d08025;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-intro {
+  text-align: center;
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #dda769;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group input {
+  flex: 1;
+  min-width: 250px;
+}
+
+#contact-form button {
+  align-self: center;
+  background-color: #f7a84f;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#contact-form button:hover {
+  background-color: #dda769;
+  color: #0B1C3D;
+  transform: scale(1.05);
 }

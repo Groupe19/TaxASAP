@@ -6,13 +6,14 @@
     <title>TaxASAP - Home</title>
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/customer.css">
 </head>
 <body data-include-navbar data-include-static-footer>
     <div class="page-content">
         <div class="banner">
         <div class="slogan-container">
             <h1>We Handle the <em>stress</em>, <br>you keep the <em>rest!</em></h1>
-            <a href="plans.html" class="get-started-button">
+            <a href="pricing.html" class="get-started-button">
             GET STARTED
         </a>
         </div>
@@ -21,6 +22,30 @@
         </div>
         </div>
     </div>
-    <script src="shared-components.js"></script>
+      <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div id="faq-list"></div>
+  </section>
+
+<section class="contact-section">
+  <h2>Contact Us</h2>
+  <p class="contact-intro">
+    Have questions or need assistance? Our team is here to help. 
+    Please fill out the form below and we’ll get back to you as soon as possible.
+  </p>
+  
+  <form id="contact-form">
+    <div class="form-group">
+      <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+      <input type="email" id="contact-email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <textarea id="contact-message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  <script src="shared-components.js"></script>
+  <script src="js/customer.js"></script>
 </body>
-</html>

@@ -32,7 +32,7 @@ var teamMembers = [
         role: 'Full Stack Developer',
         img: 'https://archives.bulbagarden.net/media/upload/9/93/0957Tinkatink.png',
         link: 'https://github.com/solatohoshi',
-        info: 'Still Not Sure'
+        info: 'Detailed oriented and hardworking developer with a passion for creating seamless user experiences.'
     },
     {
         name: 'Josh Barnabas',
