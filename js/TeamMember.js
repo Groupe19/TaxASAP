@@ -11,7 +11,7 @@ var teamMembers = [
         role: 'Frontend Developer',
         img:  'https://assets.pokeos.com/pokemon/home/render/670-eternal.png',
         link: 'https://github.com/SaraKn0',
-        info: 'No Idea For What To Write'
+        info: 'Proficient in Python, HTML, and CSS, with a strong focus on building clean and user-friendly interfaces'
     },
     {
         name: 'Loik Bernatchez',
