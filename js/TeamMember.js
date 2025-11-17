@@ -23,9 +23,9 @@ var teamMembers = [
     {
         name: 'Nada Dahbour',
         role: 'Full Stack Developer',
-        img:  'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/784.png',
+        img:  'imgs/teams/nada.jpeg',
         link: 'https://github.com/NadaDahbour',
-        info: 'Lucky, I Ran Out Of Idea Tonight'
+        info: 'Full-stack developer committed to smooth front-end experiences and dependable back-end solutions.'
     },
     {
         name: 'Huiting Huang',
