@@ -9,7 +9,7 @@ var teamMembers = [
     {
         name: 'Sara Khan',
         role: 'Frontend Developer',
-        img:  'imgs/teams/sarapic.jpg',
+        img:  'imgs/teams/saraimg.jpg',
         link: 'https://github.com/SaraKn0',
         info: 'Proficient in Python, HTML, and CSS, with a strong focus on building clean and user-friendly interfaces'
     },
