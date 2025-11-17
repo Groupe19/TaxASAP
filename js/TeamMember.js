@@ -2,9 +2,9 @@ var teamMembers = [
     {
         name: 'Charles Poitras',
         role: 'Frontend Developer',
-        img: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d0efd6f-0130-47a8-8ffd-daf855766e96/d81bvkf-af3536c4-ebc3-4c6a-ad78-63219b2a70f7.png/v1/fill/w_1024,h_1228,strp/mega_rayquaza_by_theangryaron_d81bvkf-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIyOCIsInBhdGgiOiJcL2ZcLzFkMGVmZDZmLTAxMzAtNDdhOC04ZmZkLWRhZjg1NTc2NmU5NlwvZDgxYnZrZi1hZjM1MzZjNC1lYmMzLTRjNmEtYWQ3OC02MzIxOWIyYTcwZjcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FWSo5Gi3t32adw1dY0NQU3zp1y3YeN3BjiUtzpL9itM',
+        img:  'imgs/teams/charlespoitras.jpg',
         link: 'https://github.com/Chiababa',
-        info: 'Proficient in HTML, CSS, and Java and Python oh and C++ (Glazing Myself Yes)'
+        info: 'Proficient in HTML, CSS, and Java and Python, C++, and learning assembly'
     },
     {
         name: 'Sara Khan',

@@ -28,23 +28,19 @@ function insertStaticFooter() {
                 <div>
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Our Services</a></li>
                         <a href="plans.html">Pricing</a>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Company</h3>
                     <ul>
                         <a href="features.html">About Us</a>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Careers</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Contact Us</h3>
                     <ul>
-                        <li><a href="mailto:cpoit044@uottawa.ca">cpoit044@uottawa.ca</a></li>
+                        <li><a href="mailto:engineering.ugrad@uOttawa.ca">engineering.ugrad@uOttawa.ca;</a></li>
                         <li><a href="tel:+16135625700">+1 (613) 562-5700</a></li>
                         <li><a href="https://github.com/Groupe19/TaxASAP" target="_blank">Github</a></li>
                     </ul>
