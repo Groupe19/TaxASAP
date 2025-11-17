@@ -30,7 +30,7 @@ var teamMembers = [
     {
         name: 'Huiting Huang',
         role: 'Full Stack Developer',
-        img: '/imgs/teams/huitinghuang.jpg',
+        img: 'imgs/teams/huitinghuang.jpg',
         link: 'https://github.com/solatohoshi',
         info: 'Detailed oriented and hardworking developer with a passion for creating seamless user experiences.'
     },
